@@ -1,0 +1,21 @@
+The programming language used for this assignment is R - version 4.0.2(2020-06-22)
+
+Dataset downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+More information about variables: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The original dataset is separated in several files which includes different sort of information and has been named as follows:
+- Features -> variables measured
+- Subjects_tr -> list with subjects included in training set
+- Labels_tr -> activities measured during training set named by a number
+- Measures_tr -> values of the variables measured during training set in seconds
+- Subjects_test -> list with subjects included in test set
+- Labels_test -> activities measured during test set named by a number
+- Measures_test -> values of the variables measured during test set in seconds
+
+The above files are merged into a single documents following these steps:
+1.- Two datasets are created with the training set information and the test set information
+2.- These two datasets are combined into a single one and named TrainTest
+3.- Names of the variables are changed to more descriptive ones
+
+Finally, the resulting dataset is converted into a tidy dataset by melting and casting it
