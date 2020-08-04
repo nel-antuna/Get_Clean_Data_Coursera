@@ -4,6 +4,11 @@ Dataset downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fproject
 
 More information about variables: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+Packages used during this assignment are:
+- readr
+- tidyverse
+- reshape2
+
 The original dataset is separated in several files which includes different sort of information and has been named as follows:
 - Features -> variables measured
 - Subjects_tr -> list with subjects included in training set
